@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700;900&display=swap');
+
+
+.header {
+    background-color: #1F2937;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+      
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0px 0px;
+    align-items: center; 
+    flex-wrap: nowrap;
+    gap: 130px;
+    
+    
+}
+
+.logo {
+    color: #E5E7EB;
+    font: 24px 'roboto', sans-serif;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: baseline;
+    flex-wrap: wrap;
+    height: 350px;
+    padding: 0px 90px;
+    
+}
+
+.heading2 {
+    font: 48px 'roboto', sans-serif;
+    font-weight: 700;
+    width: 250px;
+    color: #F9FAF8;
+    margin-bottom: 5px;
+}
+
+.subheading {
+    color: #E5E7EB;
+    font: 18px 'roboto', sans-serif;
+    font-weight: lighter;
+    width: 320px;
+    margin-top: 0px;
+}
+
+.laptop {
+    width: 300px;
+    padding-top: 60px;
+}
+
+.white-box {
+    margin-bottom: 70px;
+}
+
+.card-container {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+    gap: 20px;
+}
+
+.whitehead {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: #1F2937;
+    font-weight: 700;
+    font: 34px 'roboto', sans-serif;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    max-width: 130px;
+}
+.card img {
+    border-radius: 12px;
+    
+    
+}
+
+.card p {
+    text-align: center;
+    font: 18px 'roboto', sans-serif;
+    color: #1F2937;
+    font-weight: 300;
+    
+}
+
+.footer {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 30px;
+   
+}
+
+.footer p {
+    max-width: 550px;
+    font: italic 36px 'roboto';
+    font-weight: lighter;
+    color: #1F2937;
+    text-align: left;
+    margin-bottom: 0px;
+}
+
+.footer .credit {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    margin-top: 15px;
+    align-self: flex-end;
+    padding-right: 120px;
+}
+
+
+
+ul {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    list-style: none;
+}
+
+a {
+    color: #E5E7EB;
+    text-decoration: none;
+    font: 18px 'roboto', sans-serif;
+    font-weight: lighter;
+    
+
+}
+
+.white2 {
+    display: flex;
+    justify-content: center;
+}
+
+.blue-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6;
+    width: 80%;
+    margin: 40px 60px;
+    height: 90px;
+    border-radius: 10px;
+    color: #F9FAF8;
+    padding: 15px;
+    
+}
+
+.leftcta {
+   text-align: left;
+   font: 18px 'roboto', sans-serif;
+   font-weight: 200;
+   margin: 0;
+}
+
+.signup {
+    background: #3882F6;
+    color: white;
+    border: 1px solid #F9FAF8;
+    border-radius: 15px;
+    padding: 10px 20px;
+    font: 18px 'roboto', sans-serif;
+    font-weight: 300;
+}
